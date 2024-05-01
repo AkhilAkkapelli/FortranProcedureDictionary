@@ -20,10 +20,10 @@ const CommonTokenStream = antlr4.CommonTokenStream
 pushfirst!(PyVector(pyimport("sys")."path"), pwd())  
 
 # Import necessary modules from the local Python files
-const Fortran90Lexer = pyimport("Fortran90Grammer.Fortran90Lexer")  
-const Fortran90Parser = pyimport("Fortran90Grammer.Fortran90Parser")
+const Fortran90Lexer = pyimport("Fortran90Grammar.Fortran90Lexer")  
+const Fortran90Parser = pyimport("Fortran90Grammar.Fortran90Parser")
 
-Fortran90ParserListener = pyimport("Fortran90Grammer.Fortran90ParserListener")
+Fortran90ParserListener = pyimport("Fortran90Grammar.Fortran90ParserListener")
 
 # Defining a Julia struct representing a listener for Fortran90Parser events
 @pydef mutable struct FSEFortran90Listener <: Fortran90ParserListener.Fortran90ParserListener
