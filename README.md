@@ -10,7 +10,7 @@ Fortran Procedure Dictionary parses Fortran source files and extract information
 - **Text File Output**: Outputs the extracted procedure details into a text file for easy access and further analysis.
 
 ## Dependencies
-- **Julia**: Programming language used for implementing the Fortran Structure Extractor.
+- **Julia**: Programming language used for implementing the Fortran Procedure Dictionary.
   - Install Julia: [Download and installation instructions](https://julialang.org/downloads/)
   - **Julia Modules**:
     - PyCall: Julia package for interfacing with Python modules.
