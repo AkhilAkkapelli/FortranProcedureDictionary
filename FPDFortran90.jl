@@ -1,11 +1,11 @@
 # Importing necessary modules and packages
-include("ProcedureDictionary/ProcedureDictMod.jl")
+include("ProcedureDictionary/ProcedureDictionary.jl")
 
 # Importing PyCall to interact with Python modules
 using PyCall
 
 # Importing Data Structure routines for Dictionary
-import .ProcedureDictMod: newProcedureDictionary, add_procedure_detail!, get_procedure_dictionary
+import .ProcedureDictionaryMod: newProcedureDictionary, add_procedure_detail!, get_procedure_dictionary
 # Importing ArgParse for command-line argument parsing
 import ArgParse: ArgParseSettings, parse_args, @add_arg_table!  
 
