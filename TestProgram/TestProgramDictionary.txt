@@ -1,0 +1,48 @@
+Procedure Dictionary:
+Procedure Name: s1
+   File Name: TestProgram.f90
+   Container: ["TestProgram/TestProgram.f90"]
+   Is Recursive: false
+   Input Arguments: ["arg1", "*", "arg3"]
+   Is Function: false
+   Result: 
+
+Procedure Name: m1s2
+   File Name: TestProgram.f90
+   Container: ["TestProgram/TestProgram.f90", "m1"]
+   Is Recursive: true
+   Input Arguments: ["arg1"]
+   Is Function: false
+   Result: 
+
+Procedure Name: m1s1
+   File Name: TestProgram.f90
+   Container: ["TestProgram/TestProgram.f90", "m1"]
+   Is Recursive: false
+   Input Arguments: ["arg1", "*", "arg3"]
+   Is Function: false
+   Result: 
+
+Procedure Name: m1f1
+   File Name: TestProgram.f90
+   Container: ["TestProgram/TestProgram.f90", "m3"]
+   Is Recursive: true
+   Input Arguments: ["arg1", "arg2", "arg3", "arg4"]
+   Is Function: true
+   Result: r1
+
+Procedure Name: mps1
+   File Name: TestProgram.f90
+   Container: ["TestProgram/TestProgram.f90", "mp"]
+   Is Recursive: false
+   Input Arguments: ["arg1", "arg2"]
+   Is Function: false
+   Result: 
+
+Procedure Name: mps1s1
+   File Name: TestProgram.f90
+   Container: ["TestProgram/TestProgram.f90", "mp", "mps1"]
+   Is Recursive: false
+   Input Arguments: ["arg1", "arg2", "arg3"]
+   Is Function: false
+   Result: 
